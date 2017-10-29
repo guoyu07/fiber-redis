@@ -1,0 +1,19 @@
+{
+    "name": "fiberphp/redis",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../fiber-core"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fiber\\": "./src"
+        }
+    },
+    "require": {
+        "fiberphp/core": "dev-master"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
